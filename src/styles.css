@@ -1,0 +1,56 @@
+/* add css styles here (optional) */
+body{
+  background-color:ghostwhite;
+}
+.inputBox{
+  font-size: 12px;
+  padding: 10px 20px;
+  height:20px;
+  border:1px solid rgba(0, 0, 0, 0.205);
+  border-radius: 5px;
+  color:#000;
+}
+.inputBox:focus{
+outline: none;
+border-color: blue;
+}
+.dropdown{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 0 0 0, rgba(0, 0, 0, 0.1) 0px 4px 11px;
+  border-radius: 5px;
+}
+.dropdownList{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.dropdownListItem{
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.205);
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+.dropdownListItem:hover{
+background-color:rgba(218, 214, 214, 0.699);
+cursor: pointer;
+
+}
+
+.dropdownListItem:first-child{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.dropdownListItem:last-child{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.dropdownListItem:not(:first-child) {
+  border-top: 0;
+}
+.searchBoxContainer{
+ display: flex;
+ flex-direction: column;
+ margin: 10%;
+}
